@@ -1,10 +1,10 @@
 {
   "name": "ngMockHttp",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/bbraithwaite/ngMockHttp",
   "authors": [
-    "bbraithwaite <hi@bradoncode.com>"
+    "bbraithwaite <https://github.com/bbraithwaite>"
   ],
   "license": "MIT",
   "ignore": [

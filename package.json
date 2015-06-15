@@ -1,11 +1,35 @@
 {
-  "scripts": {
-    "test": "karma start karma.conf.js"
+  "name": "ngMockHttp",
+  "version": "1.0.0",
+  "description": "Unit test with real HTTP calls using ngMockE2E's passThrough and ngMock in AngularJS.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
   },
   "devDependencies": {
-    "jasmine-core": "^2.3.4",
     "karma": "^0.12.36",
-    "karma-chrome-launcher": "^0.1.12",
-    "karma-jasmine": "^0.3.5"
-  }
+    "karma-jasmine": "^0.3.5",
+    "jasmine-core": "^2.3.4",
+    "karma-chrome-launcher": "^0.1.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+     "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbraithwaite/ngMockHttp.git"
+  },
+  "author": "bbraithwaite <hi@bradoncode.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbraithwaite/ngMockHttp/issues"
+  },
+  "keywords": [
+    "angular",
+    "ngmock",
+    "http",
+    "ngMockE2E"
+  ],
+  "homepage": "https://github.com/bbraithwaite/ngMockHttp"
 }
