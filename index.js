@@ -10,7 +10,8 @@ angular.mock.http.init = function() {
   }).config(['$provide', function($provide) {
     $provide.decorator('$timeout', angular.mock.$TimeoutDecorator);
     $provide.decorator('$$rAF', angular.mock.$RAFDecorator);
-    $provide.decorator('$$asyncCallback', angular.mock.$AsyncCallbackDecorator);
+    // From version 1.4.3 this line is removed. Uncomment for older versions.
+    //$provide.decorator('$$asyncCallback', angular.mock.$AsyncCallbackDecorator);
     $provide.decorator('$rootScope', angular.mock.$RootScopeDecorator);
     $provide.decorator('$controller', angular.mock.$ControllerDecorator);
   }]);
@@ -29,7 +30,8 @@ angular.mock.http.reset = function() {
   }).config(['$provide', function($provide) {
     $provide.decorator('$timeout', angular.mock.$TimeoutDecorator);
     $provide.decorator('$$rAF', angular.mock.$RAFDecorator);
-    $provide.decorator('$$asyncCallback', angular.mock.$AsyncCallbackDecorator);
+    // From version 1.4.3 this line is removed. Uncomment for older versions.
+    //$provide.decorator('$$asyncCallback', angular.mock.$AsyncCallbackDecorator);
     $provide.decorator('$rootScope', angular.mock.$RootScopeDecorator);
     $provide.decorator('$controller', angular.mock.$ControllerDecorator);
   }]);
